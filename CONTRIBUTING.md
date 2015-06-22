@@ -15,7 +15,11 @@ section.
 * Use of the singular form in module name (or use "multi"),
   except when compound of module name or object Odoo
   that is already in the plural (i.e. mrp_operations_....).
-* Use the [description template](https://github.com/OCA/maintainer-tools/tree/master/template/module)
+* Use the [description template](https://github.com/OCA/maintainer-tools/tree/master/template/module) but remove sections with no meaningful content.
+* In the `__openerp__.py`  manifest file:
+  * Make sure the `license` key is defined
+  * Make sure the text `,Odoo Community Association (OCA)` is appended
+    to the `author` text.
 
 ### Directories
 
