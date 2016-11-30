@@ -32,3 +32,29 @@ This is signalled in the README though a banner with a star.
 To be promoted from Stable to Mature we need a PR that improves it
 so that it meets all the criteria, and adds the star banner to the README.
 
+
+The point for Mature modules is to give incentive and recognize the extra
+work to make modules more robust and easier to use.
+These are things like an excellent code test coverage,
+a detailed and useful README and documentation,
+or being available though a Configuration option.
+
+The point for Beta modules is to allow faster PR merges.
+Instead of a PR being repeatedly improved by the author until all the
+reviewers are happy with it, we instead assume this first PR as the
+starting point for a stable module. This improvement work can split
+into subsequent PRs, until it can be considered stable.
+These are smaller, easier to review, and faster to merge.
+And instead of a series of "no" until you get a "yes", 
+you have a more motivating series of "ok" until you get a "yes".
+
+A GitHub Issue should be used to coordinate the efforts of the 
+ongoing PRs, and to keep track of the list of changes that need
+to be implemented (or are just nice to have).
+
+Beta modules require at least one contributor to be committed to
+work on the work plan. Beta modules that do net meet this criteria 
+can be removed from the OCA branch. A pointer for the revision of
+last version of the module will be kept in the Issue, 
+so that it is always possible for someone else to recover and
+continue the work.
